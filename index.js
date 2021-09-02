@@ -5,6 +5,16 @@ var name= readlineSync.question("What is your name ")
 console.log("Welcome "+ name+ " To **** How much Do You Know Akshay?***")
 
 
+
+var scores= [{
+  name:"Akshay",
+  score:4
+},{
+  name:"Dhruv",
+  score:3
+}]
+
+
 function play(question,answer){
 var userAnswer = readlineSync.question(question)
 if (userAnswer===answer) {
@@ -37,3 +47,10 @@ var questions = [{
   }
 
   console.log("WOW !You scored ",score," points")
+
+  console.log("check out highScores")
+  
+  for(i=0;i<scores.length;i++)
+  {
+  console.log(scores[i].name,scores[i].score)
+  }
