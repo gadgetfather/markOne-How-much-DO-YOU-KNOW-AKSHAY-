@@ -28,7 +28,7 @@ var questions = [{
   question:"How old is Akshay? ",
   answer:"21"
 }, {
-  question:"Which graphics card does Akshay have? ",
+  question:"Which graphics card does Akshay have? (hint = put only number like 3080) ",
   answer:"1060"}]
 
   for(i=0; i<questions.length;i++){
