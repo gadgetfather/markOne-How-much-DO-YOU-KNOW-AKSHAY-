@@ -46,7 +46,7 @@ var questions = [{
   question:"Who is Akshay's favorite legend?(*enter option not option number!) \n 1. bloodhound \n 2. wraith \n 3. octane\n ",
   answer:"octane"},
   {
-  question:"what is Akshay's favorite sport?(*enter option not option number!) \n 1.Cricket  \n 2. Volleyball \n 3.Football\n ",
+  question:"what is Akshay's favorite sport?(*enter option not option number!) \n 1.Cricket  \n 2.Volleyball \n 3.Football\n ",
   answer:"Football"}
   ]
 
