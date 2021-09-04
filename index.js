@@ -42,7 +42,12 @@ var questions = [{
   answer:"1060"},
   {
   question:"How tall is Akshay?(*enter option not option number!) \n 1. 5.5ft \n 2. 6.3ft \n 3. 6.1ft\n ",
-  answer:"6.1ft"}
+  answer:"6.1ft"}, {
+  question:"Who is Akshay's favorite legend?(*enter option not option number!) \n 1. bloodhound \n 2. wraith \n 3. octane\n ",
+  answer:"octane"},
+  {
+  question:"what is Akshay's favorite sport?(*enter option not option number!) \n 1.Cricket  \n 2. Volleyball \n 3.Football\n ",
+  answer:"Football"}
   ]
 
   for(i=0; i<questions.length;i++){
