@@ -8,7 +8,7 @@ console.log("Welcome "+ name+ " To **** How much Do You Know Akshay?***")
 
 var scores= [{
   name:"Akshay",
-  score:4
+  score:5
 },{
   name:"Dhruv",
   score:3
@@ -17,7 +17,7 @@ var scores= [{
 
 function play(question,answer){
 var userAnswer = readlineSync.question(question)
-if (userAnswer===answer) {
+if (userAnswer.toUpperCase()===answer.toUpperCase()) {
   console.log("right!")
   score++
  
@@ -39,7 +39,11 @@ var questions = [{
   answer:"21"
 }, {
   question:"Which graphics card does Akshay have? (hint = put only number like 3080) ",
-  answer:"1060"}]
+  answer:"1060"},
+  {
+  question:"How tall is Akshay?(*enter option not option number!) \n 1. 5.5ft \n 2. 6.3ft \n 3. 6.1ft\n ",
+  answer:"6.1ft"}
+  ]
 
   for(i=0; i<questions.length;i++){
     var currenQuestion = questions[i]
