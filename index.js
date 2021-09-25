@@ -53,7 +53,7 @@ var questions = [{
   answer:"Football"},
   {
   question:"who is Akshay's favorite haikyu character?(*enter option not option number!) \n 1.Daichi  \n 2.Kageyama \n 3.Tanaka\n ",
-  answer:"Gulabjamun"}
+  answer:"Kageyama"}
   ]
 
   for(i=0; i<questions.length;i++){
